@@ -6,8 +6,8 @@ Enabling easy to implement and use DAO Governance for Open Source development pr
 
 ### System Components:
 
-- [x] [GitHub:](#github)
-- [ ] [DAO Repository:](#dao-repository)
+- [x] [GitHub](#github)
+- [ ] [DAO Repository](#dao-repository)
 - [ ] [Smart-Contracts](#smart-contracts)
 - [ ] [Dashboard](#dashboard)
 - [ ] [GitHub App](#github-app)
