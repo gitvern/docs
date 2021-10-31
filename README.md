@@ -30,9 +30,13 @@ Enabling easy to implement and use DAO Governance for Open Source development pr
 
 #### Smart-Contracts
 
-- Set of smart-contracts to be used as a reference when deploying each project own contracts
-- There are token contracts, as well as many other utilities
-- The most important one is the Treasury contract, which implements the escrow mechanism for handling the project budget funds, lock them when work is assigned and release them when work is done
+- Set of smart-contracts to be used as a reference, when deploying each DAO Project's own contracts for:
+    - Governance Token contracts
+    - Pre-market Liquidity Building contracts using a UniSwap Liquidity Pool
+    - Development Treasury contracts using DAO and LP tokens
+- Governance Token contracts with transfer locking and ERC223 based to avoid getting stuck in contracts
+- Pre-market Liquidity Building contracts serve as a means of gathering external liquidity to a DAO Governance Token, and simultaneously build up a DAO Treasury without "selling" tokens in an ICO - these contracts use a dutch auction system to derive a final base price for pre-market liquidity providers, enforcing a fair token distribution and price among all parties - then the token should become transferrable and the contract allows token holders to claim their LP tokens from the UniSwap Liquidity Pool, representing their pair of 50% ETH / 50% DAO Token
+- Development Treasury contract implements the escrow mechanism for handling the project budget funds, lock them when work is assigned and release them when work is done
 - 
 
 #### Dashboard
