@@ -7,10 +7,10 @@ Enabling easy to implement and use DAO Governance for Open Source development pr
 ### System Components:
 
 - [x] [GitHub](#github)
-- [ ] [DAO Repository](#dao-repository)
-- [ ] [Smart-Contracts](#smart-contracts)
+- [x] [DAO Repository](#dao-repository)
+- [x] [Smart-Contracts](#smart-contracts)
 - [ ] [Dashboard](#dashboard)
-- [ ] [GitHub App](#github-app)
+- [x] [GitHub App](#github-app)
 
 #### GitHub:
 
@@ -38,10 +38,10 @@ Enabling easy to implement and use DAO Governance for Open Source development pr
 
 #### Dashboard
 
-- Simple dashboard to perform actions on the work items (issues) for each project
-- Token holders can simply approve issues with a signature using their MetaMask (no need for a GitHub account and to understand it)
-- Each token holder has a maximum number of votes that can be active at the same time, meaning that when reached voted issues have either to be done or dumped for that vote to be released
-- View work by priority, as a result of the approvals each issue has gathered
+- Integration with [Snapshot.org](https://snapshot.org) dashboard to approve the work items (issues) for each project
+- The same dashboard can be used to add and approve other administrative proposals, not related to development issues
+- Token holders can simply approve work or proposals with a signature using their MetaMask (no need for a GitHub account or to understand it)
+- View work by priority, as a result of the approvals each issue has gathered in GitHub Project board automatically
 - 
 
 #### GitHub App
