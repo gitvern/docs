@@ -21,7 +21,6 @@ Enabling easy to implement and use DAO Governance for Open Source development pr
 - 
 
 #### DAO Repository:
-
 [https://github.com/gitvern/dao](https://github.com/gitvern/dao)
 
 - You can find a template DAO Repository [here](https://github.com/gitvern/dao), using gitvern project as an example
@@ -31,7 +30,6 @@ Enabling easy to implement and use DAO Governance for Open Source development pr
 - 
 
 #### Smart-Contracts
-
 [https://github.com/gitvern/contracts](https://github.com/gitvern/contracts)
 
 - Set of smart-contracts to be used as a reference, when deploying each DAO Project's own contracts for:
@@ -41,12 +39,15 @@ Enabling easy to implement and use DAO Governance for Open Source development pr
 - 
 
 #### GitHub App
-
 [https://github.com/gitvern/github-app](https://github.com/gitvern/github-app)
 
 - When a token holder approves an issue on the Dashboard, verify the token holder validity by on-chain balance and signature verification, then update issue with comment detailing it and increment Priority field by token holder balance
 - When an admin assigns an issue that has a weight already, or the other way around, send lock transaction to the Treasury smart-contract with payee and the respective amount for the issue weight
 - When an admin closes an issue that has a PR or more merged to default branch, then the work is considered accepted and a release transaction is sent to the Treasury smart-contract with payee and amount, so that the value is unlocked and transferred
+- When an admin wants to submit an issue/task for DAO voting, just assign one of the labels defined in Gitvern, and the respective proposal will be created automatically on the linked Snapshot.org space
+- If configured, removing the label can cancel the proposal automatically
+- Also, when voting is closed, the result will be automatically updated on the respective column in GitHub, so that the team can work accordingly
+- And if configured, the proposal can be removed automatically after a period
 - 
 
 #### Dashboard
