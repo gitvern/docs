@@ -9,7 +9,7 @@ Enabling easy to implement and use DAO Governance for Open Source development pr
 - [x] [GitHub](#github)
 - [x] [DAO Repository](#dao-repository)
 - [x] [Smart-Contracts](#smart-contracts)
-- [ ] [Dashboard](#dashboard)
+- [x] [Dashboard](#dashboard)
 - [x] [GitHub App](#github-app)
 
 #### GitHub:
